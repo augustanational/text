@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="1", 1
+http://192.168.1.1:4444
+
 #EXTINF:-1 tvg-id="2", 2
 http://192.168.1.2:4444
 
@@ -59,3 +62,27 @@ http://192.168.1.20:4444
 
 #EXTINF:-1 tvg-id="21", 21
 http://192.168.1.21:4444
+
+#EXTINF:-1 tvg-id="22", 3:4444
+http://192.168.1.3:4444
+
+#EXTINF:-1 tvg-id="23", 3:5555
+http://192.168.1.3:5555
+
+#EXTINF:-1 tvg-id="1", 1
+https://fash1043.cloudycdn.services:443/slive/_definst_/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/chunklist_b3628000_t64MTA4MHA=.m3u8
+
+#EXTINF:-1 tvg-id="2", 2
+https://fash1043.cloudycdn.services:443/slive/_definst_/ftv_pg13_hd_gmt__vm6_43433_default_1597_hls.smil/chunklist_b5228000_t64MTA4MA==.m3u8
+
+#EXTINF:-1 tvg-id="3", 3
+https://fash1043.cloudycdn.services:443/slive/_definst_/ftv_ftv_pg13_glo_css_43440_1080p_1610_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
+
+#EXTINF:-1 tvg-id="4", 4
+https://fash1043.cloudycdn.services:443/slive/_definst_/ftv_ftv_new_york_9dd_43432_default_1596_hls.smil/chunklist_b4628000_t64MTA4MHA=.m3u8
+
+#EXTINF:-1 tvg-id="5", 5
+https://fashs043.cloudycdn.services:443/scte/africa/africa_chunklist.m3u8
+
+#EXTINF:-1 tvg-id="6", 6
+https://fash1043.cloudycdn.services:443/slive/_definst_/ftv_ftv_pg13_hd_uir_43438_vidio_id_1609_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
