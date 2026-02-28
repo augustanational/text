@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Maple Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/augustanational/text@6a06b67c96b6fba60da4d13212fb83ac54929a8c/normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Maple Mono';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/augustanational/text@6a06b67c96b6fba60da4d13212fb83ac54929a8c/italic.woff2) format('woff2');
+}
