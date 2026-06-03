@@ -1,3 +1,5 @@
+
+# bash -c apt-get update && apt-get install --upgrade -y --no-install-recommends curl && mkdir /app/sources/custom && curl --location https://cdn.jsdelivr.net/gh/augustanational/text@f342e7b835384609c87da14240c44680e3804e4a/source/custom.py --output /app/sources/custom/custom.py && /app/.venv/bin/python -m lncrawl config set app admin_email fuzzy && /app/.venv/bin/python -m lncrawl config set app admin_password fuzzzy && /app/.venv/bin/python -m lncrawl -ll server
 # -*- coding: utf-8 -*-
 from concurrent.futures import Future
 import logging
@@ -15,8 +17,6 @@ class TruenFull(LegacyCrawler):
     has_mtl = True
     base_url = [
         "https://truyenfull.mobi/",
-        "https://truyentr.info/",
-        "https://truyenfull.today/",
     ]
 
     @staticmethod
