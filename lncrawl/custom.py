@@ -1,4 +1,5 @@
-# bash -c apt-get update && apt-get install --upgrade -y --no-install-recommends curl && mkdir /app/sources/custom && curl --location https://cdn.jsdelivr.net/gh/augustanational/text@f342e7b835384609c87da14240c44680e3804e4a/source/custom.py --output /app/sources/custom/custom.py && /app/.venv/bin/python -m lncrawl config set app admin_email fuzzy && /app/.venv/bin/python -m lncrawl config set app admin_password fuzzzy && /app/.venv/bin/python -m lncrawl -ll server
+# bash -c apt-get update && apt-get install -y --no-install-recommends wget && rm /data/config.json && wget https://cdn.jsdelivr.net/gh/augustanational/text@f342e7b835384609c87da14240c44680e3804e4a/lncrawl/config.json --output-document=/data/config.json && /app/.venv/bin/python -m lncrawl -ll server
+# bash -c apt-get update && apt-get install -y --no-install-recommends curl && mkdir /app/sources/custom && curl --location https://cdn.jsdelivr.net/gh/augustanational/text@f342e7b835384609c87da14240c44680e3804e4a/source/custom.py --output /app/sources/custom/custom.py
 # -*- coding: utf-8 -*-
 from concurrent.futures import Future
 import logging
