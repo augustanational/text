@@ -1,4 +1,4 @@
-# bash -c apt-get update && apt-get install -y --no-install-recommends wget && rm /data/config.json && wget https://cdn.jsdelivr.net/gh/augustanational/text@f342e7b835384609c87da14240c44680e3804e4a/lncrawl/config.json --output-document=/data/config.json && /app/.venv/bin/python -m lncrawl -ll server
+# bash -c apt-get update && apt-get install -y --no-install-recommends wget && wget https://cdn.jsdelivr.net/gh/augustanational/text@2b9d075d0adbb7e4fe59a39567a5c768162afb33/lncrawl/config.json --output-document=/app/config.json && /app/.venv/bin/python -m lncrawl -ll -c /app/config.json server
 # bash -c apt-get update && apt-get install -y --no-install-recommends curl && mkdir /app/sources/custom && curl --location https://cdn.jsdelivr.net/gh/augustanational/text@f342e7b835384609c87da14240c44680e3804e4a/source/custom.py --output /app/sources/custom/custom.py
 # -*- coding: utf-8 -*-
 from concurrent.futures import Future
